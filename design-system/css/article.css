@@ -26,7 +26,6 @@ article .wrapper {
 .articleBody {
   display: flex;
   flex-direction: column;
-  width: 64%;
 }
 
 .highlights {
