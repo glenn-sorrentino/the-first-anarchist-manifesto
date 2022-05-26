@@ -38,6 +38,7 @@
 .tabs {
   overflow: auto;
   white-space: nowrap;
+  padding: 0 var(--spacing-base);
 }
 
 .tabs ul a {
@@ -69,6 +70,9 @@
   line-height: inherit;
 }
 
+@media only screen and (max-width: 1280px) {
+}
+
 @media only screen and (max-width: 960px) {
 }
 
@@ -83,4 +87,7 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .tabs {
+    padding: 0 var(--spacing-small);
+  }
 }
