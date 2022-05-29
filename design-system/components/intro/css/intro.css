@@ -44,6 +44,8 @@
   right: 0;
   z-index: 0 !important;
   margin: 0 auto;
+  padding: 0;
+  transition: .3s;
 }
 
 .intro p:last-of-type {
@@ -85,6 +87,12 @@ p.hint a {
 
 .fade {
   opacity: 0 !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .intro .tabs {
+    padding: 0 var(--spacing-base);
+  }
 }
 
 @media only screen and (max-width: 768px) {
