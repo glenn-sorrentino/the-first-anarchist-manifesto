@@ -18,6 +18,7 @@ footer {
 
 footer p {
   margin: 0;
+  font-size: var(--font-size-xsmall) !important;
 }
 
 footer p.donate {
