@@ -99,4 +99,8 @@ p.hint a {
   .intro h2 {
     width: 100%;
   }
+
+  .intro .tabs {
+    padding: 0 var(--spacing-small);
+  }
 }
